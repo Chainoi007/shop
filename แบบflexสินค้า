@@ -1,0 +1,38 @@
+{
+  "type": "bubble",
+  "size": "nano",
+  "hero": {
+    "type": "image",
+    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+    "size": "full",
+    "aspectMode": "cover",
+    "aspectRatio": "320:213",
+    "action": {
+      "type": "message",
+      "label": "action",
+      "text": "**mnameลบฟันหนู/ตรงภาพurlเปลี่ยนmimage"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "**ลบฟันหนูmname",
+        "weight": "regular",
+        "size": "xxs",
+        "wrap": true,
+        "margin": "none",
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": "ย้ายฟันหนูไปหน้าบาทmprice +  บาท",
+        "size": "xxs"
+      }
+    ],
+    "spacing": "none",
+    "paddingAll": "sm"
+  }
+}
